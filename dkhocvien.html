@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>đăng kí học viên</title>
+    <style>
+        .tieude{
+            background-color: aquamarine;
+            color: blue;
+        }
+        body{
+            background-color: palegoldenrod;
+        }
+        .mau{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h1 class="tieude">Đăng kí học viên</h1>
+<table>
+    <tr>
+        <td class="mau">Họ và tên</td>
+        <td>
+            <input type="text" name="fullname">
+        </td>
+    </tr>
+    <tr>
+        <td class="mau">Ngày sinh</td>
+        <td>
+            <input type="date" name="date">
+        </td>
+    </tr>
+    <tr>
+        <td class="mau">Giới tính</td>
+        <td>
+            <input type="radio" name="Giới tính" value="Nam"><label>nam</label>
+            <input type="radio" name="Giới tính" value="Nữ"><label>nữ</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="mau">Địa chỉ</td>
+        <td>
+            <textarea cols="30"rows="5"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="mau">Lớp</td>
+        <td>
+            <select name="-Chọn lớp-">
+                <option value="choose">-chọn lớp-</option>
+                <option value="10">lớp 10</option>
+                <option value="11">lớp 11</option>
+                <option value="12">lớp 12</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="mau">Email</td>
+        <td>
+            <input type="email">
+        </td>
+    </tr>
+    <tr>
+        <td class="mau">Điện thoại</td>
+        <td>
+            <input type="number">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="submit" name="submit" value="Đăng kí">
+            <input type="reset" value="Nhập lại">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
